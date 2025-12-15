@@ -14,7 +14,7 @@ jobs:
       - name: Create Dummy Commit
         run: |
           date > date.txt
-          git config --global user.name "HafsaHajji"
+          git config --global user.name "hafsahassan23"
           git config --global user.email "xafsaxaaji936@gmail.com"
           git add date.txt
           git commit -m "Automated commit to keep streak alive"
